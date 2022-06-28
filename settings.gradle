@@ -1,0 +1,19 @@
+//pluginManagement {
+//    repositories {
+//        gradlePluginPortal()
+//        google()
+//        mavenCentral()
+//    }
+//}
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+//}
+rootProject.name = "My Applicationsadasz"
+include ':app'
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('/Users/choeyeong-wan/Desktop/Timnova_App/MyApplicationsadasz/unityLibrary')
+
